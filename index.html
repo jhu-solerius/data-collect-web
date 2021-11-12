@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <button id="connect-left" onclick="onConnectClick('left')">connect-left</button>
+    <button id="connect-right" onclick="onConnectClick('right')">connect-right</button>
+    <button id="start-recording" onclick="onStartRecordClick()" oncontextmenu="onStopRecordClick()">start recording</button>
+    <button id="stop-recording" onclick="onStopRecordClick()">stop recording</button>
+    <label for="filename">Filename: </label><input id="filename" placeholder="dataLog">
+    <label for="status-left">status-left: </label><input id="status-left" value="Unknown" disabled>
+    <label for="status-right">status-right: </label><input id="status-right" value="Unknown" disabled>
+
+</body>
+</html>
